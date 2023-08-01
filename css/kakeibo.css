@@ -1,0 +1,146 @@
+body {
+    font-family: Noto Sans JP,-apple-system,blinkmacsystemfont,Segoe UI,Hiragino Kaku Gothic ProN,BIZ UDPGothic,meiryo,sans-serif;
+}
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+table, th {
+    width: 140px;
+    font-size: 50px;
+}
+th, td {
+    height: 150px;
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid #ffffff;
+    padding: 10px;
+}
+button {
+    height: 140px;
+    width: 90%;
+    font-size: 30px;
+    border-radius: 10px;
+    border: none;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+.home-select {
+    zoom: 200%;
+}
+.trend-select {
+    zoom: 300%;
+}
+.targettrend {
+    zoom: 1.5;
+}
+.yearmonth-box select {
+    width: 150px;
+    height: 35px;
+    font-size: 25px;
+    vertical-align: top;
+    text-align: center;
+}
+.sum-price {
+    font-size: 40px;
+}
+.color-recode-font {
+    font-size: 30px;
+}
+.display-yearmonth {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 30px;
+}
+.user-row {
+    background-color: #F0F4C3;
+}
+.user-row-b {
+    background-color: #e3e7b6;
+}
+.group-row {
+    background-color: #39d8ea;
+}
+.group-row-b {
+    background-color: #33c3d3;
+}
+.another-row {
+    background-color: #dddddd;
+}
+.header {
+    background-color: #81a0cc;
+}
+.no-record {
+    font-size: 30px;
+}
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    margin: 10px 30px;
+}
+.display-month {
+    font-size: 40px;
+    margin-top: auto;
+    margin-bottom: 0;
+    padding: 10px 20px 30px 30px;
+}
+.confirmation-form {
+    zoom: 5;
+}
+.display-header {
+    font-size: 40px;
+    font-weight: bold;
+}
+.decision-button {
+    text-align: center;
+}
+.decision-input {
+    border: none;
+    border-radius: 3px;
+    font-size: 15px;
+}
+.delete-button {
+    width: 65%;
+    height: 100%;
+    font-size: 15px;
+    border-radius: 3px;
+}
+.material-symbols-outlined {
+    zoom: 3;
+}
+.no-mobile {
+    color: #ff0000;
+}
+.p-price-number {
+    font-size: 45px;
+}
+.price-number {
+    zoom: 3;
+    width: 100px;
+}
+.p-number-icon {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 3px;
+}
+.price-number, button[type="submit"] {
+    line-height: 30px;
+    vertical-align: middle;
+}
+.b-price-number {
+    height: 100px;
+    width: 100px;
+    background-color: #ffffff;
+}
+.modify-input {
+    width: 120px;
+}

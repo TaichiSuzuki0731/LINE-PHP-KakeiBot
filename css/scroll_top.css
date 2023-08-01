@@ -1,0 +1,18 @@
+/* トップへ戻るボタン */
+.page_top_btn {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 0.7em;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    border-radius: 50%;
+    background: #cecece;
+    color: #ffffff;
+}
+
+/* マウスオーバー時 */
+.page_top_btn:hover {
+    background: #cecece;
+    color: #ffffff;
+}

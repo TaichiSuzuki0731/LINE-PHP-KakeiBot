@@ -1,0 +1,6 @@
+dev/
+line_info/
+.DS_Store
+function.inc.php
+index.php
+.vscode/

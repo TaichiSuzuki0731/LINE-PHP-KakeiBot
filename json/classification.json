@@ -1,0 +1,148 @@
+{
+    "type": "flex",
+    "altText": "This is a Flex Message",
+    "contents": 
+    {
+        "type": "bubble",
+        "header": 
+        {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+                {
+                    "type": "text",
+                    "text": "分類を決めてくださいニャ",
+                    "weight": "bold",
+                    "size": "md"
+                }
+            ]
+        },
+        "body": 
+        {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+                {
+                    "type": "button",
+                    "action": {
+                        "type": "message",
+                        "label": "食料費",
+                        "text": "!1"
+                    }
+                },
+                {
+                    "type": "button",
+                    "action": {
+                        "type": "message",
+                        "label": "生活費",
+                        "text": "!2"
+                    }
+                },
+                {
+                    "type": "button",
+                    "action": {
+                        "type": "message",
+                        "label": "衣服費",
+                        "text": "!3"
+                    }
+                },
+                {
+                    "type": "button",
+                    "action": {
+                        "type": "message",
+                        "label": "美健費",
+                        "text": "!4"
+                    }
+                },
+                {
+                    "type": "button",
+                    "action": {
+                        "type": "message",
+                        "label": "交際費",
+                        "text": "!5"
+                    }
+                },
+                {
+                    "type": "button",
+                    "action": {
+                        "type": "message",
+                        "label": "交通費",
+                        "text": "!6"
+                    }
+                },
+                {
+                    "type": "button",
+                    "action": {
+                        "type": "message",
+                        "label": "娯楽費",
+                        "text": "!7"
+                    }
+                },
+                {
+                    "type": "button",
+                    "action": {
+                        "type": "message",
+                        "label": "医療費",
+                        "text": "!8"
+                    }
+                },
+                {
+                    "type": "button",
+                    "action": {
+                        "type": "message",
+                        "label": "通信費",
+                        "text": "!9"
+                    }
+                },
+                {
+                    "type": "button",
+                    "action": {
+                        "type": "message",
+                        "label": "光熱費",
+                        "text": "!10"
+                    }
+                },
+                {
+                    "type": "button",
+                    "action": {
+                        "type": "message",
+                        "label": "住居費",
+                        "text": "!11"
+                    }
+                },
+                {
+                    "type": "button",
+                    "action": {
+                        "type": "message",
+                        "label": "慶弔費",
+                        "text": "!12"
+                }
+                },
+                {
+                    "type": "button",
+                    "action": {
+                        "type": "message",
+                        "label": "その他",
+                        "text": "!13"
+                    }
+                },
+                {
+                    "type": "button",
+                    "action": {
+                        "type": "message",
+                        "label": "外食費",
+                        "text": "!14"
+                    }
+                },
+                {
+                    "type": "button",
+                    "action": {
+                        "type": "message",
+                        "label": "ペット",
+                        "text": "!15"
+                    }
+                }
+            ]
+        }
+    }
+}
